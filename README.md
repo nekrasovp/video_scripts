@@ -2,6 +2,10 @@
 
 Various scripts to manipulate video content
 
+- [x] Store and manipulate channels and videos metadata(youtube_dl)
+- [x] Download videos, audios and save(youtube_dl, ffmpeg)
+- [ ] Upload videos(google-api)
+
 ## dwnld.py
 
 ```text
