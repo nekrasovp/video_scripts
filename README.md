@@ -6,9 +6,21 @@ Various scripts to manipulate video content
 - [x] Download videos, audios and save(youtube_dl, ffmpeg)
 - [ ] Upload videos(google-api)
 
-## dwnld.py
+## Setup
 
-```text
+```sh
+$ git clone video_scripts.git
+$ cd video_scripts
+$ python -m venv .venv
+$ source .venv/bin/activate
+$ python -m pip install -r requirements.txt
+```
+
+## Run
+
+### dwnld.py
+
+```bash
 $ python dwnld.py -h
 usage: dwnld.py [-h] [--download] [--no_cache] links [links ...]
 
